@@ -83,7 +83,7 @@ $config['site']['groups_hidden'] = array(4, 5, 6);
 $config['site']['accounts_hidden'] = array(1);
 
 # PAGE: shopsystem.php
-$config['site']['shop_system'] = false;
+$config['site']['shop_system'] = true;
 
 # PAGE: lostaccount.php
 $config['site']['email_lai_sec_interval'] = 180;
@@ -93,5 +93,5 @@ $config['site']['layout'] = 'tibiacom';
 $config['site']['vdarkborder'] = '#505050';
 $config['site']['darkborder'] = '#D4C0A1';
 $config['site']['lightborder'] = '#F1E0C6';
-$config['site']['download_page'] = false;
+$config['site']['download_page'] = true;
 $config['site']['serverinfo_page'] = true;

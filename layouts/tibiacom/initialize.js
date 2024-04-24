@@ -27,6 +27,7 @@ function MouseOutBigButton(source)
 // initialisation of the loginbox status by the value of the variable 'loginStatus' which is provided to the HTML-document by PHP in the file 'header.inc'
 function LoadLoginBox()
 {
+  console.log('-----------------------', loginStatus);
   if(loginStatus == "false") {
     document.getElementById('LoginstatusText_1').style.backgroundImage = "url('" + IMAGES + "/loginbox/loginbox-font-you-are-not-logged-in.gif')";
     document.getElementById('ButtonText').style.backgroundImage = "url('" + IMAGES + "/buttons/_sbutton_login.gif')";
